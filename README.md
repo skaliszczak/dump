@@ -19,6 +19,7 @@ dumpt($varible);			// shows varible like print_r
 dumph($varible);			// shows varible like print_r but with pre tags and use htmlspecialchars to show entities
 dumpf($varible);			// shows varible like print_r into file dump.log
 dump_date($timestamp);		// shows date from unix timestamp
+dump_stack();				// shows current call stack
 
 dump($varible, 'my name');	// shows varible like print_r but with pre tags and name
 dump_off();					// disable dumping
