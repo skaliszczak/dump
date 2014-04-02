@@ -11,6 +11,8 @@ Installation Symfony2
 	
 Documentation:
 
+```php
+
 dump($varible);				// shows varible like print_r but with pre tags
 dumpv($varible);			// shows varible like var_dump but with pre tags
 dumpt($varible);			// shows varible like print_r
@@ -21,5 +23,5 @@ dump_date($timestamp);		// shows date from unix timestamp
 dump($varible, 'my name');	// shows varible like print_r but with pre tags and name
 dump_off();					// disable dumping
 dump_on();					// enable dumping
-
+```
 
